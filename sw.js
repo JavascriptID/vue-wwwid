@@ -23,8 +23,8 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.bundle.js",
-    "revision": "39d8836fe50da46a612a062bfc7a3104"
+    "url": "/vue-wwwid/about.ca76a6a5b5c961f29cae.js",
+    "revision": "4ebaaecb1d809723b532c10668242a2e"
   },
   {
     "url": "assets/icons/android-chrome-192x192.png",
@@ -75,24 +75,28 @@ workbox.precache([
     "revision": "058a3335d15a3eb84e7ae3707ba09620"
   },
   {
-    "url": "/vue-wwwid/detail.bundle.js",
-    "revision": "11ba85f3920ac6e06c6358565e6e37b5"
+    "url": "/vue-wwwid/detail.ceec17be5125a3cc5393.js",
+    "revision": "e521c5df55e3a3c57483b0cbb62518a8"
   },
   {
-    "url": "/vue-wwwid/home.bundle.js",
-    "revision": "6c9e611e3621ad6398cc39244d64fd69"
+    "url": "/vue-wwwid/home.b0cf6310588a4d2fb2d8.js",
+    "revision": "72129764d4d51abb9b3befb9e19d111b"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "fc57587ee65368811dad0cbe7b624dfb"
+    "revision": "b20e5f6b6c5918ba7fac1f8b66d0877c"
   },
   {
-    "url": "/vue-wwwid/main.bundle.js",
-    "revision": "6c1c6c083d56f669224bc8e35126b805"
+    "url": "/vue-wwwid/main.45e742bbf3986e77303e.js",
+    "revision": "329d62d3cc6d1ecc5021a392caeabd72"
   },
   {
-    "url": "/vue-wwwid/manifest.bundle.js",
-    "revision": "b766497512b43e642bd8b9894c6c2478"
+    "url": "/vue-wwwid/main.77e505a256ad6f3e610fb76ee2215390.css",
+    "revision": "200199c125a9cb5b7dad8413a4f4d1d8"
+  },
+  {
+    "url": "/vue-wwwid/manifest.2f0125f7422f63083617.js",
+    "revision": "c335dc56a0a889b326e7c694bf13b2bf"
   },
   {
     "url": "/vue-wwwid/manifest.json",
@@ -100,7 +104,7 @@ workbox.precache([
   },
   {
     "url": "sw.js",
-    "revision": "6915aed9b079b24de0ac2dfd92ab288a"
+    "revision": "49d050fda3a1375340e02cee570ae978"
   },
   {
     "url": "workbox-sw.prod.v2.1.2.js",
