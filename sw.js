@@ -84,27 +84,31 @@ workbox.precache([
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "b20e5f6b6c5918ba7fac1f8b66d0877c"
-  },
-  {
-    "url": "/vue-wwwid/main.45e742bbf3986e77303e.js",
-    "revision": "329d62d3cc6d1ecc5021a392caeabd72"
+    "revision": "500f0596fc3c3a86c7472e23fd6484c3"
   },
   {
     "url": "/vue-wwwid/main.77e505a256ad6f3e610fb76ee2215390.css",
     "revision": "200199c125a9cb5b7dad8413a4f4d1d8"
   },
   {
-    "url": "/vue-wwwid/manifest.2f0125f7422f63083617.js",
-    "revision": "c335dc56a0a889b326e7c694bf13b2bf"
+    "url": "/vue-wwwid/main.c12c1c757866fa3d55a5.js",
+    "revision": "d6e80484af9862d9281369007bbb3c5c"
+  },
+  {
+    "url": "/vue-wwwid/manifest.0c6f4710d847217cc5d5.js",
+    "revision": "08242cb8040730aa38b8a4bdc87d5356"
   },
   {
     "url": "/vue-wwwid/manifest.json",
-    "revision": "a5f153d9ba684d590fb79f4edb78f2d9"
+    "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
   },
   {
     "url": "sw.js",
-    "revision": "49d050fda3a1375340e02cee570ae978"
+    "revision": "bd5b5208d6aadcf8f235896aee9bbffc"
+  },
+  {
+    "url": "/vue-wwwid/vendor.d386efa7cefc2001e016.js",
+    "revision": "b12665b49832ddd4d86b680ed0b40f72"
   },
   {
     "url": "workbox-sw.prod.v2.1.2.js",
