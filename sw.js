@@ -76,7 +76,7 @@ workbox.precache([
   },
   {
     "url": "/vue-wwwid/dep-graph.json",
-    "revision": "9295aa238caaca2819ffc10ca14e3512"
+    "revision": "9e4704b39c107c347f677bf2e4562211"
   },
   {
     "url": "/vue-wwwid/detail.ac5a00f6d65802c7857b.js",
@@ -88,15 +88,15 @@ workbox.precache([
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "53713b20cc392c60a505ddaa66f1abbd"
+    "revision": "e3f93999d9b9a02804c652f2a262edf8"
+  },
+  {
+    "url": "/vue-wwwid/main.731dce8b113b127e0e92.js",
+    "revision": "94dd3a3d4794736e3e714fa808561c10"
   },
   {
     "url": "/vue-wwwid/main.86faed425c0ca35569732d113c279c87.css",
     "revision": "99ba07517dc543ab6794ebc27c11376d"
-  },
-  {
-    "url": "/vue-wwwid/main.9d2332233348d036def3.js",
-    "revision": "5d1ce4bfc879c4ae43db4e300408f2ae"
   },
   {
     "url": "/vue-wwwid/manifest.json",
@@ -107,8 +107,8 @@ workbox.precache([
     "revision": "11c02915953342954d09d655a9b25b9c"
   },
   {
-    "url": "/vue-wwwid/vendor.0c6087673048c7e77ba0.js",
-    "revision": "1e1d38f3c0ac8c5e8d46b9299ffb3bf1"
+    "url": "/vue-wwwid/vendor.d386efa7cefc2001e016.js",
+    "revision": "1c0404b8f51443ca7163b7b68fcdae27"
   },
   {
     "url": "/vue-wwwid/workbox-sw.prod.v2.1.2.js",
