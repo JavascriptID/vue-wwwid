@@ -1,0 +1,1 @@
+webpackJsonp([2],{Ojkr:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=n("xRi5"),a=function(){n("ZBwL")},l=Object(i.a)({name:"Detail"},function(){return(this._self._c||this.$createElement)("div",{staticClass:"detail"},[this._v("\n  Detail Page\n")])},[],!1,a,null,null);t.default=l.exports},ZBwL:function(){}});
