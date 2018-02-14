@@ -88,7 +88,7 @@ workbox.precache([
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "f325879a9c6bf5ff9f5a90bfdbe90236"
+    "revision": "bcd11e95d6916272b989aac86224c6c2"
   },
   {
     "url": "/vue-wwwid/main.806882dc684c8dff6ab8.js",
