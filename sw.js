@@ -14,7 +14,17 @@ workbox.router.registerRoute(
 workbox.router.registerRoute(
   new RegExp('^https:\/\/api\.rss2json\.com.*'),
   workbox.strategies.cacheFirst({
-    cacheName: 'rss2json',
+    cacheName: 'wwwid-api',
+    cacheableResponse: {
+      statuses: [0, 200], // Make sure 0 is included in this list.
+    }
+  })
+);
+
+workbox.router.registerRoute(
+  new RegExp('^https:\/\/cdn-images.*'),
+  workbox.strategies.cacheFirst({
+    cacheName: 'wwwid-img',
     cacheableResponse: {
       statuses: [0, 200], // Make sure 0 is included in this list.
     }
@@ -23,8 +33,12 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.f9a3f109a1b01ff61c34.js",
-    "revision": "c4524d1e92f751921d1ae8f5f995d5d3"
+    "url": "/vue-wwwid/about.8766ad4051101b354f7c.js",
+    "revision": "c1e80051c28b06330f63d4c0e2c20043"
+  },
+  {
+    "url": "/vue-wwwid/assets/icons/ajax-loader-small.gif",
+    "revision": "946ccf928eb55b717f5485397873829b"
   },
   {
     "url": "/vue-wwwid/assets/icons/android-chrome-192x192.png",
@@ -75,40 +89,44 @@ workbox.precache([
     "revision": "058a3335d15a3eb84e7ae3707ba09620"
   },
   {
+    "url": "/vue-wwwid/assets/icons/overlay.png",
+    "revision": "77aeaa52715b898b73c74d68c630330e"
+  },
+  {
     "url": "/vue-wwwid/dep-graph.json",
-    "revision": "9e4704b39c107c347f677bf2e4562211"
+    "revision": "92230941baec0c2f56837967f1052b1e"
   },
   {
-    "url": "/vue-wwwid/detail.ac5a00f6d65802c7857b.js",
-    "revision": "9e5cc92581b13a73d045952e5ca0b05c"
+    "url": "/vue-wwwid/detail.8766ad4051101b354f7c.js",
+    "revision": "f7e5448429fb35ef4da5709e2dd5f75a"
   },
   {
-    "url": "/vue-wwwid/home.5801864d86549ca1a948.js",
-    "revision": "eb16082de4a4835171b0c06de9b9c435"
+    "url": "/vue-wwwid/home.8766ad4051101b354f7c.js",
+    "revision": "cd3b80d7958310645dba74eb3f90415f"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "e3f93999d9b9a02804c652f2a262edf8"
+    "revision": "6e15c2e2bccd0761cf3ad1b2ecbf2a3f"
   },
   {
-    "url": "/vue-wwwid/main.731dce8b113b127e0e92.js",
-    "revision": "94dd3a3d4794736e3e714fa808561c10"
+    "url": "/vue-wwwid/main.8766ad4051101b354f7c.js",
+    "revision": "1f5178e94b8b4270753f6090ccbae60b"
   },
   {
-    "url": "/vue-wwwid/main.86faed425c0ca35569732d113c279c87.css",
-    "revision": "99ba07517dc543ab6794ebc27c11376d"
+    "url": "/vue-wwwid/main.b11d8fa9461bf041011aefd221cd066c.css",
+    "revision": "1fa12b3eec4f22f4b102c6aff7e89333"
   },
   {
     "url": "/vue-wwwid/manifest.json",
     "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
   },
   {
-    "url": "/vue-wwwid/runtime.20cd66a67e7736b58acc.js",
-    "revision": "11c02915953342954d09d655a9b25b9c"
+    "url": "/vue-wwwid/runtime.8766ad4051101b354f7c.js",
+    "revision": "ca5e552b24d3a3bf7b2d9e678d1f0ea5"
   },
   {
-    "url": "/vue-wwwid/vendor.d386efa7cefc2001e016.js",
-    "revision": "1c0404b8f51443ca7163b7b68fcdae27"
+    "url": "/vue-wwwid/vendor.8766ad4051101b354f7c.js",
+    "revision": "68db9a99736878798978ef6ad988154f"
   },
   {
     "url": "/vue-wwwid/workbox-sw.prod.v2.1.2.js",
