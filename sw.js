@@ -23,8 +23,8 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.69c38083873e56e1b56c.js",
-    "revision": "31b6219897f284af5e98a13eefc5df1f"
+    "url": "/vue-wwwid/about.f9a3f109a1b01ff61c34.js",
+    "revision": "c4524d1e92f751921d1ae8f5f995d5d3"
   },
   {
     "url": "/vue-wwwid/assets/icons/android-chrome-192x192.png",
@@ -76,39 +76,39 @@ workbox.precache([
   },
   {
     "url": "/vue-wwwid/dep-graph.json",
-    "revision": "833359b2d176619eabe596387f47741d"
+    "revision": "2b9a43bd9c97dd25792ea8d0952aa38b"
   },
   {
-    "url": "/vue-wwwid/detail.49e7758453a65d3f555f.js",
-    "revision": "a7a9ee563ca6e7a987a747ef7422b935"
+    "url": "/vue-wwwid/detail.ac5a00f6d65802c7857b.js",
+    "revision": "9e5cc92581b13a73d045952e5ca0b05c"
   },
   {
-    "url": "/vue-wwwid/home.f0b3b8f51d0960bdd09a.js",
-    "revision": "d06d22547be3d789bed0ea483d173cec"
+    "url": "/vue-wwwid/home.5801864d86549ca1a948.js",
+    "revision": "eb16082de4a4835171b0c06de9b9c435"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "14a138d366b16028ff845711c742fc44"
-  },
-  {
-    "url": "/vue-wwwid/main.806882dc684c8dff6ab8.js",
-    "revision": "525db012718c3b4b15f05780cf748782"
+    "revision": "9a17f9a03c95ed1d153faefe71300854"
   },
   {
     "url": "/vue-wwwid/main.86faed425c0ca35569732d113c279c87.css",
     "revision": "99ba07517dc543ab6794ebc27c11376d"
   },
   {
+    "url": "/vue-wwwid/main.a87ca1d14ec18b735981.js",
+    "revision": "655cb0005cb326e675aa8ce208b15800"
+  },
+  {
     "url": "/vue-wwwid/manifest.json",
     "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
   },
   {
-    "url": "/vue-wwwid/runtime.e0aa0f8ef1348439b539.js",
-    "revision": "5e368bb09c3b567fe8d05012be6ce9cc"
+    "url": "/vue-wwwid/runtime.20cd66a67e7736b58acc.js",
+    "revision": "11c02915953342954d09d655a9b25b9c"
   },
   {
-    "url": "/vue-wwwid/vendor.dbf921ae84b6d8ad0386.js",
-    "revision": "c49bbd888b3cd6eb81b0823ace359731"
+    "url": "/vue-wwwid/vendor.70079880a94036d85ed6.js",
+    "revision": "15bff7744f662cdad27634141c6b6639"
   },
   {
     "url": "/vue-wwwid/workbox-sw.prod.v2.1.2.js",
