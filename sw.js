@@ -33,8 +33,8 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.62d665f230c71e67f7df.js",
-    "revision": "c1e80051c28b06330f63d4c0e2c20043"
+    "url": "/vue-wwwid/about.64d47a019f27fdd382e3.js",
+    "revision": "38ae68023a67a16f82ba5709bda31b63"
   },
   {
     "url": "/vue-wwwid/assets/icons/ajax-loader-small.gif",
@@ -93,40 +93,44 @@ workbox.precache([
     "revision": "77aeaa52715b898b73c74d68c630330e"
   },
   {
-    "url": "/vue-wwwid/detail.62d665f230c71e67f7df.js",
-    "revision": "29156b60fbed38039bb1820ba5c99788"
+    "url": "/vue-wwwid/category.64d47a019f27fdd382e3.js",
+    "revision": "f0c0fdfa48a6d82fd9a5f645ab421f92"
+  },
+  {
+    "url": "/vue-wwwid/detail.64d47a019f27fdd382e3.js",
+    "revision": "9d05ffa76aa5a9cbf8eb6438ed58003a"
   },
   {
     "url": "/vue-wwwid/hash.json",
-    "revision": "a153d63ebba043d46f2276bf611c272c"
+    "revision": "423f0f83f94c078ad9a3ea3eff16db0a"
   },
   {
-    "url": "/vue-wwwid/home.62d665f230c71e67f7df.js",
-    "revision": "bb46349e3a1b8b8a885fcf874c745ae4"
+    "url": "/vue-wwwid/home.64d47a019f27fdd382e3.js",
+    "revision": "14567b77f3ce0fddb51c938df994f735"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "51db85c152d7611850977a16b4600013"
+    "revision": "1da92bb1d674c85ddf6da323664d5147"
   },
   {
-    "url": "/vue-wwwid/main.62d665f230c71e67f7df.js",
-    "revision": "72db40ea04954e007f59b4fb93bed09e"
+    "url": "/vue-wwwid/main.5f7d7bcc5405ea449f32fd07bb8d87d6.css",
+    "revision": "d6e5f3db904a87a12884e583b7a49dd9"
   },
   {
-    "url": "/vue-wwwid/main.fe3f3a5aeaa2ed60a0415912d92de18a.css",
-    "revision": "910cd0cd26056bc2862d55403dfdc008"
+    "url": "/vue-wwwid/main.64d47a019f27fdd382e3.js",
+    "revision": "d4c36ae903ae0775eb985279eab1b5fd"
   },
   {
     "url": "/vue-wwwid/manifest.json",
     "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
   },
   {
-    "url": "/vue-wwwid/runtime.62d665f230c71e67f7df.js",
-    "revision": "167d60d3b8675db56d1cb667473b6523"
+    "url": "/vue-wwwid/runtime.64d47a019f27fdd382e3.js",
+    "revision": "5e28133699c20ea818115fa82ce85605"
   },
   {
-    "url": "/vue-wwwid/vendor.62d665f230c71e67f7df.js",
-    "revision": "d55fe415e3980df965a53b1ed18bcb04"
+    "url": "/vue-wwwid/vendor.64d47a019f27fdd382e3.js",
+    "revision": "20351349fe6ceb5bddca7a95971dcef3"
   },
   {
     "url": "/vue-wwwid/workbox-sw.prod.v2.1.2.js",
