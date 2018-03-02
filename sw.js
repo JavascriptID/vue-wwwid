@@ -33,7 +33,7 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.994250205331ed6d20e9.js",
+    "url": "/vue-wwwid/about.019ec3f09b7c29b8f3fe.js",
     "revision": "38ae68023a67a16f82ba5709bda31b63"
   },
   {
@@ -93,43 +93,43 @@ workbox.precache([
     "revision": "77aeaa52715b898b73c74d68c630330e"
   },
   {
-    "url": "/vue-wwwid/category.994250205331ed6d20e9.js",
-    "revision": "2386f6c0a98efb33f27774ecf3b9ea2f"
+    "url": "/vue-wwwid/category.019ec3f09b7c29b8f3fe.js",
+    "revision": "5ebf3a530a9a6aa95e348fe3f7f998cc"
   },
   {
-    "url": "/vue-wwwid/detail.994250205331ed6d20e9.js",
-    "revision": "deafaa470aabbb50544a53cc708f1d01"
+    "url": "/vue-wwwid/detail.019ec3f09b7c29b8f3fe.js",
+    "revision": "28600bfb5e75bd3259f7551da56c5f6d"
   },
   {
     "url": "/vue-wwwid/hash.json",
-    "revision": "29fd117777576c4cd5935e3cb4123e16"
+    "revision": "764af0e0b9543386d669687d2458455c"
   },
   {
-    "url": "/vue-wwwid/home.994250205331ed6d20e9.js",
-    "revision": "b23fc36c8f80b09232e22ff7529397f7"
+    "url": "/vue-wwwid/home.019ec3f09b7c29b8f3fe.js",
+    "revision": "bf09b18597f97c5a562ae6fe81dd3566"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "e876088132de7c6354f19c79d18d4423"
+    "revision": "efdf7a91967c47d1aed29dfcd3176916"
+  },
+  {
+    "url": "/vue-wwwid/main.019ec3f09b7c29b8f3fe.js",
+    "revision": "e62d0849e4486a4b18acb8be42de18c5"
   },
   {
     "url": "/vue-wwwid/main.4c466a976055bfed61fee2a944583074.css",
     "revision": "fb96eecb1546e9eb55e8976963607781"
   },
   {
-    "url": "/vue-wwwid/main.994250205331ed6d20e9.js",
-    "revision": "e62d0849e4486a4b18acb8be42de18c5"
-  },
-  {
     "url": "/vue-wwwid/manifest.json",
     "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
   },
   {
-    "url": "/vue-wwwid/runtime.994250205331ed6d20e9.js",
-    "revision": "4957afdd68048150ee91e0767ac4061e"
+    "url": "/vue-wwwid/runtime.019ec3f09b7c29b8f3fe.js",
+    "revision": "c5dca6bac67bad1b7821dc95f7c385e2"
   },
   {
-    "url": "/vue-wwwid/vendor.994250205331ed6d20e9.js",
+    "url": "/vue-wwwid/vendor.019ec3f09b7c29b8f3fe.js",
     "revision": "20351349fe6ceb5bddca7a95971dcef3"
   },
   {
