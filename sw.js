@@ -33,7 +33,7 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.64d47a019f27fdd382e3.js",
+    "url": "/vue-wwwid/about.994250205331ed6d20e9.js",
     "revision": "38ae68023a67a16f82ba5709bda31b63"
   },
   {
@@ -93,43 +93,43 @@ workbox.precache([
     "revision": "77aeaa52715b898b73c74d68c630330e"
   },
   {
-    "url": "/vue-wwwid/category.64d47a019f27fdd382e3.js",
-    "revision": "f0c0fdfa48a6d82fd9a5f645ab421f92"
+    "url": "/vue-wwwid/category.994250205331ed6d20e9.js",
+    "revision": "2386f6c0a98efb33f27774ecf3b9ea2f"
   },
   {
-    "url": "/vue-wwwid/detail.64d47a019f27fdd382e3.js",
-    "revision": "9d05ffa76aa5a9cbf8eb6438ed58003a"
+    "url": "/vue-wwwid/detail.994250205331ed6d20e9.js",
+    "revision": "deafaa470aabbb50544a53cc708f1d01"
   },
   {
     "url": "/vue-wwwid/hash.json",
-    "revision": "423f0f83f94c078ad9a3ea3eff16db0a"
+    "revision": "29fd117777576c4cd5935e3cb4123e16"
   },
   {
-    "url": "/vue-wwwid/home.64d47a019f27fdd382e3.js",
-    "revision": "14567b77f3ce0fddb51c938df994f735"
+    "url": "/vue-wwwid/home.994250205331ed6d20e9.js",
+    "revision": "b23fc36c8f80b09232e22ff7529397f7"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "1da92bb1d674c85ddf6da323664d5147"
+    "revision": "e876088132de7c6354f19c79d18d4423"
   },
   {
-    "url": "/vue-wwwid/main.5f7d7bcc5405ea449f32fd07bb8d87d6.css",
-    "revision": "d6e5f3db904a87a12884e583b7a49dd9"
+    "url": "/vue-wwwid/main.4c466a976055bfed61fee2a944583074.css",
+    "revision": "fb96eecb1546e9eb55e8976963607781"
   },
   {
-    "url": "/vue-wwwid/main.64d47a019f27fdd382e3.js",
-    "revision": "d4c36ae903ae0775eb985279eab1b5fd"
+    "url": "/vue-wwwid/main.994250205331ed6d20e9.js",
+    "revision": "e62d0849e4486a4b18acb8be42de18c5"
   },
   {
     "url": "/vue-wwwid/manifest.json",
     "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
   },
   {
-    "url": "/vue-wwwid/runtime.64d47a019f27fdd382e3.js",
-    "revision": "5e28133699c20ea818115fa82ce85605"
+    "url": "/vue-wwwid/runtime.994250205331ed6d20e9.js",
+    "revision": "4957afdd68048150ee91e0767ac4061e"
   },
   {
-    "url": "/vue-wwwid/vendor.64d47a019f27fdd382e3.js",
+    "url": "/vue-wwwid/vendor.994250205331ed6d20e9.js",
     "revision": "20351349fe6ceb5bddca7a95971dcef3"
   },
   {
