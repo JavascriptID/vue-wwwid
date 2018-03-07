@@ -32,9 +32,9 @@ workbox.router.registerRoute(
 );
 
 workbox.router.registerRoute(
-  new RegExp('^https:\/\/res.cloudinary.com\/.*'),
+  new RegExp('^https:\/\/res\.cloudinary\.com.*'),
   workbox.strategies.cacheFirst({
-    cacheName: 'wwwid-img',
+    cacheName: 'wwwid-compressed-img',
     cacheableResponse: {
       statuses: [0, 200], // Make sure 0 is included in this list.
     }
@@ -43,7 +43,7 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.94acec756cb87e0ffb59.js",
+    "url": "/vue-wwwid/about.bd854afcc8d3bc77a8ad.js",
     "revision": "38ae68023a67a16f82ba5709bda31b63"
   },
   {
@@ -103,43 +103,47 @@ workbox.precache([
     "revision": "77aeaa52715b898b73c74d68c630330e"
   },
   {
-    "url": "/vue-wwwid/category.94acec756cb87e0ffb59.js",
+    "url": "/vue-wwwid/category.bd854afcc8d3bc77a8ad.js",
     "revision": "5ebf3a530a9a6aa95e348fe3f7f998cc"
   },
   {
-    "url": "/vue-wwwid/detail.94acec756cb87e0ffb59.js",
+    "url": "/vue-wwwid/detail.bd854afcc8d3bc77a8ad.js",
     "revision": "28600bfb5e75bd3259f7551da56c5f6d"
   },
   {
     "url": "/vue-wwwid/hash.json",
-    "revision": "d51ec4e1fe0b7b47ba2f8533aded3566"
+    "revision": "f0db7c721ab2eccb182c67ceb5aa241b"
   },
   {
-    "url": "/vue-wwwid/home.94acec756cb87e0ffb59.js",
+    "url": "/vue-wwwid/home.bd854afcc8d3bc77a8ad.js",
     "revision": "bf09b18597f97c5a562ae6fe81dd3566"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "139c78dea4f8eb2f16b4c0031a5a08d8"
+    "revision": "13690663993e93e8f6951b25ab470e50"
   },
   {
     "url": "/vue-wwwid/main.8358e8043dd870dbb5ca97d628f8b701.css",
     "revision": "20572037eafabfd4f20ae8272553efdc"
   },
   {
-    "url": "/vue-wwwid/main.94acec756cb87e0ffb59.js",
-    "revision": "e62d0849e4486a4b18acb8be42de18c5"
+    "url": "/vue-wwwid/main.bd854afcc8d3bc77a8ad.js",
+    "revision": "c34ae7182230c998bdb852d78421fd78"
   },
   {
     "url": "/vue-wwwid/manifest.json",
     "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
   },
   {
-    "url": "/vue-wwwid/runtime.94acec756cb87e0ffb59.js",
-    "revision": "f81e08b73b997e73658941be21a421a4"
+    "url": "/vue-wwwid/package.json",
+    "revision": "97f1946863bf4ec120446f13ae7bb987"
   },
   {
-    "url": "/vue-wwwid/vendor.94acec756cb87e0ffb59.js",
+    "url": "/vue-wwwid/runtime.bd854afcc8d3bc77a8ad.js",
+    "revision": "87052e215bed4ecfbdf2902d4bf7aed0"
+  },
+  {
+    "url": "/vue-wwwid/vendor.bd854afcc8d3bc77a8ad.js",
     "revision": "20351349fe6ceb5bddca7a95971dcef3"
   },
   {
