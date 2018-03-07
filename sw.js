@@ -43,8 +43,8 @@ workbox.router.registerRoute(
 
 workbox.precache([
   {
-    "url": "/vue-wwwid/about.bd854afcc8d3bc77a8ad.js",
-    "revision": "38ae68023a67a16f82ba5709bda31b63"
+    "url": "/vue-wwwid/about.7bcf78193aaad17d45ae.js",
+    "revision": "06681476d7e76dab3bfe0dca02b231b9"
   },
   {
     "url": "/vue-wwwid/assets/icons/ajax-loader-small.gif",
@@ -103,47 +103,47 @@ workbox.precache([
     "revision": "77aeaa52715b898b73c74d68c630330e"
   },
   {
-    "url": "/vue-wwwid/category.bd854afcc8d3bc77a8ad.js",
-    "revision": "5ebf3a530a9a6aa95e348fe3f7f998cc"
+    "url": "/vue-wwwid/category.7bcf78193aaad17d45ae.js",
+    "revision": "4f93ec0ebd6eacb988870f567d17775a"
   },
   {
-    "url": "/vue-wwwid/detail.bd854afcc8d3bc77a8ad.js",
-    "revision": "28600bfb5e75bd3259f7551da56c5f6d"
+    "url": "/vue-wwwid/detail.7bcf78193aaad17d45ae.js",
+    "revision": "a79326c65ed0ad6b765f8e9bf1e28f57"
   },
   {
     "url": "/vue-wwwid/hash.json",
-    "revision": "f0db7c721ab2eccb182c67ceb5aa241b"
+    "revision": "b00a8dc433a16e190758c264af47e878"
   },
   {
-    "url": "/vue-wwwid/home.bd854afcc8d3bc77a8ad.js",
-    "revision": "bf09b18597f97c5a562ae6fe81dd3566"
+    "url": "/vue-wwwid/home.7bcf78193aaad17d45ae.js",
+    "revision": "39b99e04a636a52689ace14b69088727"
   },
   {
     "url": "/vue-wwwid/index.html",
-    "revision": "13690663993e93e8f6951b25ab470e50"
+    "revision": "44b498a36881df01c7b8dfacd141a1bb"
   },
   {
-    "url": "/vue-wwwid/main.8358e8043dd870dbb5ca97d628f8b701.css",
-    "revision": "20572037eafabfd4f20ae8272553efdc"
+    "url": "/vue-wwwid/main.7bcf78193aaad17d45ae.js",
+    "revision": "592b1ba46d65944b00366c8562c593f0"
   },
   {
-    "url": "/vue-wwwid/main.bd854afcc8d3bc77a8ad.js",
-    "revision": "c34ae7182230c998bdb852d78421fd78"
+    "url": "/vue-wwwid/main.c67ba3590f7e57398a15da1ca0b75bcc.css",
+    "revision": "175e283d83e269e6bb810ab81a9a42e0"
   },
   {
     "url": "/vue-wwwid/manifest.json",
-    "revision": "e7a6b84f79cc1b2a7d6a299f2c73b3c0"
+    "revision": "832605a36d1fe40d4ee5487c4fb1a488"
   },
   {
     "url": "/vue-wwwid/package.json",
-    "revision": "97f1946863bf4ec120446f13ae7bb987"
+    "revision": "1175a79cc8e26f3f528867e815938bca"
   },
   {
-    "url": "/vue-wwwid/runtime.bd854afcc8d3bc77a8ad.js",
-    "revision": "87052e215bed4ecfbdf2902d4bf7aed0"
+    "url": "/vue-wwwid/runtime.7bcf78193aaad17d45ae.js",
+    "revision": "5eff4036d8b089f1b6752eb433f7350c"
   },
   {
-    "url": "/vue-wwwid/vendor.bd854afcc8d3bc77a8ad.js",
+    "url": "/vue-wwwid/vendor.7bcf78193aaad17d45ae.js",
     "revision": "20351349fe6ceb5bddca7a95971dcef3"
   },
   {
