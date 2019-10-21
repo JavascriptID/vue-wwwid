@@ -11,11 +11,11 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const InlineChunkWebpackPlugin = require('html-webpack-inline-chunk-plugin');
 
-const workboxPlugin = require('workbox-webpack-plugin');
+const {InjectManifest} = require('workbox-webpack-plugin')
 
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-const DIST = path.resolve(__dirname, "build");
+const DIST = path.resolve(__dirname, "build-github");
 const SRC = path.resolve(__dirname, "src");
 const ASSETS = path.resolve(__dirname, "src/assets");
 const PAGES = path.resolve(__dirname, "src/pages");
@@ -158,15 +158,6 @@ module.exports = {
       }
     })
 	]).concat(ENV === 'production' ? [
-    // copy file to dist
-    new CopyWebpackPlugin([
-			{ from: '../.travis.yml', to: './' },
-			{ from: '../package.json', to: './' },
-			{ from: './manifest.json', to: './' },
-			{ from: './libs/workbox-sw.prod.v2.1.2.js', to: './' },
-			{ from: './libs/workbox-sw.prod.v2.1.2.js.map', to: './' },
-			{ from: './assets', to: './assets' }
-    ]),
     // new webpack.optimize.ModuleConcatenationPlugin(),
     // keep module.id stable when vender modules does not change
     new webpack.HashedModuleIdsPlugin(),
@@ -212,12 +203,6 @@ module.exports = {
       parallel: true,
       sourceMap: false
     }),
-    new workboxPlugin({
-      globDirectory: DIST,
-      globPatterns: ['**/*.{html,js,css,json,gif,png}'],
-      swDest: path.join(DIST, 'sw.js'),
-      swSrc: path.join(SRC, 'sw.js')
-    }),
     new OptimizeCSSPlugin({
       cssProcessorOptions: {
         safe: true
@@ -231,6 +216,18 @@ module.exports = {
       // minRatio: 0.8,
       cache: true
     }),
+    new InjectManifest({
+      swDest: path.join(DIST, 'service-worker.js'),
+      swSrc: path.join(SRC, 'sw.js')
+    }),
+    // copy file to dist
+    new CopyWebpackPlugin([
+			{ from: '../.travis.yml', to: './' },
+			{ from: '../package.json', to: './' },
+			{ from: '../README.md', to: './' },
+			{ from: './manifest.json', to: './' },
+			{ from: './assets', to: './assets' }
+    ])
     // UNCOMMENT FOR BUNDLE ANALYZE
     // new BundleAnalyzerPlugin()
   ] : []),

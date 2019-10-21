@@ -4,9 +4,10 @@ const TODAY = new Date().toLocaleString();
 
 console.log(`start publishing to ${BRANCH}`);
 
-ghpages.publish('build', {
+ghpages.publish('build-github', {
   branch: BRANCH,
-  message: `Merge to ${BRANCH} ==> ${TODAY}`
+  message: `Deploy to ${BRANCH} ==> ${TODAY}`,
+  dotfiles: true
 }, () => {
   console.log(`done publishing to ${BRANCH}`);
 });
